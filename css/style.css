@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+
+
+/* Regole sfondo */
+.header-verde{
+    width: 100%;
+    height: 100px;
+    background-color: #009688;
+}
+
+.main-grigio{
+    width: 100%;
+    height: 100%;
+    background-color: #dadacf;
+}
+
+
+/* Regole main */
+
+.main-container{
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    margin: 10px 100px;
+    background-color: blue;
+}
