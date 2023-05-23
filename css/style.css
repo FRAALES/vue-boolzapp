@@ -108,19 +108,33 @@
 
 
 /* Regole chat laterali */
-.barra-utenti-laterale{
-    background-color: white;
-    height: 470px;
+
+.chat-barra-laterale{
     width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 
-.chat-laterale{
-    width: 100%;
-    height: 50px;
+.container-chat-laterali-left{
+    width: 80px;
+    height: 90%;
     display: flex;
-    border-bottom: solid grey;
-    background-color: green;
+}
+
+
+.container-chat-laterali-right{
+    width: 80px;
+    height: 100%;
+}
+
+.timestamp-chat{
+    color: rgb(202, 200, 200);
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 10px;
 }
 
 
