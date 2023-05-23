@@ -42,7 +42,6 @@
 .barra-laterale{
     height: 100%;
     width: 30%;
-    background-color: pink;
 }
 
 /* Regole profilo utente */
@@ -93,6 +92,7 @@
     font-size: 10px;
 }
 
+
 /* Regole input (laterale) */
 .barra-cerca-laterale{
     width: 100%;
@@ -101,6 +101,30 @@
 }
 
 .input-includes-magnifying{
-    padding-left: 100px;
+    padding-right: 80px;
+    margin-top: 5px;
 }
+
+
+
+/* Regole chat laterali */
+.barra-utenti-laterale{
+    background-color: white;
+    height: 470px;
+    width: 100%;
+}
+
+
+.chat-laterale{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: solid grey;
+    background-color: green;
+}
+
+
+
+
+
 
