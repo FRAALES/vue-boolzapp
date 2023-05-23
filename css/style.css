@@ -36,3 +36,53 @@
     z-index: 91;
     display: flex;
 }
+
+
+/* Regole barra laterale */
+.barra-laterale{
+    height: 100%;
+    width: 30%;
+    background-color: pink;
+}
+
+/* Regole profilo utente */
+
+.header-barra-laterale{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-barra-laterale-container-left{
+    width: 80px;
+    height: 90%;
+    display: flex;
+}
+
+.sofia{
+    margin-top: 20px;
+}
+
+.header-barra-laterale-container-right{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    background-color: red;
+}
+
+
+/* Regole notifiche (laterale) */
+.barra-celeste-laterale{
+    width: 100%;
+    height: 50px;
+    background-color: #8edafc;
+}
+
+/* Regole input (laterale) */
+.barra-cerca-laterale{
+    width: 100%;
+    height: 30px;
+    background-color: #ecede9;
+}
