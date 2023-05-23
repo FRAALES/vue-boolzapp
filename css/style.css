@@ -119,22 +119,22 @@
 
 
 .container-chat-laterali-left{
-    width: 80px;
-    height: 90%;
+    width: 270px;
+    height: 100%;
     display: flex;
+    padding-top: 5px;
 }
 
 
 .container-chat-laterali-right{
-    width: 80px;
+    width: 100%;
     height: 100%;
 }
 
 .timestamp-chat{
     color: rgb(202, 200, 200);
-    margin-top: 5px;
-    margin-left: 50px;
     font-size: 10px;
+    margin-top: 5px;
 }
 
 
