@@ -3,11 +3,26 @@ const {createApp} = Vue;
 createApp ({
     data(){
         return{
-            value: 'ciao',
+            messaggio: '',
+            chats: [
+                {
+                    'nome': 'Michela',
+                    'fotoProfilo': 
+                },
+                
+                 
+            ],
         }
     }
 
-    // Voglio agganciare l'input a value, così che sia l'utente a modificare il value
+    // Visualizzazione dinamica della lista contatti: tramite la direttiva v-for, visualizzare nome e immagine di ogni contatto
+
+
+    //1. creo un array di oggetti (che corrisponderanno alle chat) che contengono: 
+    // - nome
+    // - foto profilo
+
+    
 
 
 
@@ -18,8 +33,4 @@ createApp ({
 
 
 
-
-
-
-
-}).mount('.main-centrale');
+}).mount('.main-container');
