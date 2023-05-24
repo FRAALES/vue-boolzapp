@@ -9,11 +9,7 @@ createApp ({
                     'nome': 'Michela',
                     'fotoProfilo': 'Michela.jpeg',
                 },       
-                
-                {
-                    'nome': 'Simone',
-                    'fotoProfilo': 'Ale.jpeg',
-                }
+
             ],
         }
     }

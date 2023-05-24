@@ -153,10 +153,10 @@
             <!-- PRIMA CHAT CON I DATI -->
             <div class="chat-barra-laterale">
                 <div v-for="chat in chats" class="container-chat-laterali-left">
-                    <img src="" alt="">
+                    <img src="{{chats[0].fotoProfilo}}" alt="">
 
                     <div class="text-container-chat-laterali">
-                        <h5>{{chats.nome}}</h5>
+                        <h5>{{chats[0].nome}}</h5>
                         <p>ultimo messaggio inviato</p>
                     </div>
 
