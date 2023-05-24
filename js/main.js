@@ -6,4 +6,4 @@ createApp ({
             value: '',
         }
     }
-})
+}).mount('#app')
