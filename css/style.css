@@ -42,6 +42,7 @@
 .barra-laterale{
     height: 100%;
     width: 30%;
+    background-color: pink;
 }
 
 /* Regole profilo utente */
@@ -141,4 +142,56 @@
 
 
 
+/* Regole chat grande centrale */
+.main-main{
+    width: 70%;
+}
 
+/* Regole header chat grande centrale */
+
+.header-main{
+    height: 50px;
+    width: 100%;
+}
+
+.header-chat-centrale{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-chat-centrale-container-left{
+    width: 500px;
+    height: 100%;
+    display: flex;
+}
+
+
+.header-chat-centrale-container-right{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.ultimo-accesso{
+    font-size: 10px;
+    color: rgb(178, 175, 175);
+}
+
+/* Regole main chat grande centrale */
+
+.main-centrale{
+    height: 500px;
+}
+
+
+/* Regole footer chat grande centrale */
+
+.footer-centrale{
+    height: 50px;
+    background-color: red;
+}
