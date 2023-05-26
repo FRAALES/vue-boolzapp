@@ -8,12 +8,24 @@ createApp ({
                 {
                     'nome': 'Michela',
                     'fotoProfilo': 'Michela.jpeg',
-                },       
+                },   
+                
+                {
+                    'nome': 'Fabiola',
+                    'fotoProfilo': 'WhatsApp-Avatar-Profile-Photo-Hero-1250x680.png',
+                },
+
+                {
+                    'nome': 'Samuele',
+                    'fotoProfilo': 'Ale.jpeg',
+                },
 
             ],
         }
+        
+    
+    
     }
-
     // Visualizzazione dinamica della lista contatti: tramite la direttiva v-for, visualizzare nome e immagine di ogni contatto
 
 
@@ -21,7 +33,7 @@ createApp ({
     // - nome
     // - foto profilo
 
-    
+
 
 
 

@@ -152,8 +152,8 @@
 
             <!-- PRIMA CHAT CON I DATI -->
             <div class="chat-barra-laterale">
-                <div v-for="chat in chats" class="container-chat-laterali-left">
-                    <img src="{{chats[0].fotoProfilo}}" alt="">
+                <div class="container-chat-laterali-left">
+                    <img :src="chats.fotoProfilo" alt="">
 
                     <div class="text-container-chat-laterali">
                         <h5>{{chats[0].nome}}</h5>
@@ -170,12 +170,48 @@
 
             </div>
             
-            
+
+            <!-- SECONDA CHAT CON I DATI -->
+            <div class="chat-barra-laterale">
+                <div class="container-chat-laterali-left">
+                    <img :src="chats[0].fotoProfilo" alt="">
+
+                    <div class="text-container-chat-laterali">
+                        <h5>{{chats[1].nome}}</h5>
+                        <p>ultimo messaggio inviato</p>
+                    </div>
 
 
-       
+                </div>
+
+                <div class="container-chat-laterali-right">
+                    <p class="timestamp-chat">12:00</p>
+    
+                </div>
+
+            </div>
+
+
+            <!-- CHAT COL V-FOR -->
         
+            <div class="chat-barra-laterale">
+                <div v-for="chat in chats" class="container-chat-laterali-left">
+                    <img :src="chats[0].fotoProfilo" alt="">
 
+                    <div class="text-container-chat-laterali">
+                        <h5>{{chat.nome}}</h5>
+                        <p>ultimo messaggio inviato</p>
+                    </div>
+
+
+                </div>
+
+                <div class="container-chat-laterali-right">
+                    <p class="timestamp-chat">12:00</p>
+    
+                </div>
+
+            </div>
 
 
             
@@ -223,6 +259,11 @@
 
                     <div class="chat-bianca">
                         Non c'è male, tu?
+                    </div>
+
+
+                    <div class="chat-verde">
+                        {{messaggio}}
                     </div>
 
                 </div>
