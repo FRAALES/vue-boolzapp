@@ -7,17 +7,22 @@ createApp ({
             chats: [
                 {
                     'nome': 'Michela',
-                    'fotoProfilo': 'Michela.jpeg',
+                    'fotoProfilo': '.Img/Michela.jpeg',
                 },   
                 
                 {
                     'nome': 'Fabiola',
-                    'fotoProfilo': 'WhatsApp-Avatar-Profile-Photo-Hero-1250x680.png',
+                    'fotoProfilo': 'Img/WhatsApp-Avatar-Profile-Photo-Hero-1250x680.png',
                 },
 
                 {
                     'nome': 'Samuele',
                     'fotoProfilo': 'Ale.jpeg',
+                },
+
+                {
+                    'nome': 'Alessandra',
+                    'fotoProfilo': 'sandra.jpg',
                 },
 
             ],
