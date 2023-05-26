@@ -5,7 +5,7 @@ createApp ({
         return{
             messaggio: '',
 
-            
+
             // Visualizzazione dinamica della lista contatti: tramite la direttiva v-for, visualizzare nome e immagine di ogni contatto
             //1. creo un array di oggetti (che corrisponderanno alle chat) che contengono: 
             // - nome
@@ -28,7 +28,7 @@ createApp ({
 
                 {
                     'nome': 'Alessandra',
-                    'fotoProfilo': 'sandra.jpg',
+                    'fotoProfilo': 'Img/sandra.jpg',
                 },
 
             ],
