@@ -4,6 +4,12 @@ createApp ({
     data(){
         return{
             messaggio: '',
+
+            
+            // Visualizzazione dinamica della lista contatti: tramite la direttiva v-for, visualizzare nome e immagine di ogni contatto
+            //1. creo un array di oggetti (che corrisponderanno alle chat) che contengono: 
+            // - nome
+            // - foto profilo
             chats: [
                 {
                     'nome': 'Michela',
@@ -31,12 +37,7 @@ createApp ({
     
     
     }
-    // Visualizzazione dinamica della lista contatti: tramite la direttiva v-for, visualizzare nome e immagine di ogni contatto
-
-
-    //1. creo un array di oggetti (che corrisponderanno alle chat) che contengono: 
-    // - nome
-    // - foto profilo
+    
 
 
 
