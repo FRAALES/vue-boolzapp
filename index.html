@@ -66,110 +66,28 @@
             </div>
 
 
-            <!-- Questa è la parte laterale con le chat elencate -->
-
-            <!-- Chat con Michela (1) -->
-           <div class="chat-barra-laterale">
-                <div class="container-chat-laterali-left">
-                    <img src="Img/Michela.jpeg" alt="">
-
-                    <div class="text-container-chat-laterali">
-                        <h5>Michela</h5>
-                        <p>ultimo messaggio inviato</p>
-                    </div>
-
-
-                </div>
-
-                <div class="container-chat-laterali-right">
-                    <p class="timestamp-chat">12:00</p>
-    
-                </div>
-
-            </div>
-
-            <!-- Chat con Fabiola (2)-->
-            <div class="chat-barra-laterale">
-                <div class="container-chat-laterali-left">
-                    <img src="Img/WhatsApp-Avatar-Profile-Photo-Hero-1250x680.png" alt="">
-
-                    <div class="text-container-chat-laterali">
-                        <h5>Fabiola</h5>
-                        <p>ultimo messaggio inviato</p>
-                    </div>
-
-
-                </div>
-
-                <div class="container-chat-laterali-right">
-                    <p class="timestamp-chat">12:00</p>
-    
-                </div>
-
-            </div>
-
-            <!-- Chat con Samuele (3) -->
-            <div class="chat-barra-laterale">
-                <div class="container-chat-laterali-left">
-                    <img src="Img/Ale.jpeg" alt="">
-
-                    <div class="text-container-chat-laterali">
-                        <h5>Samuele</h5>
-                        <p>ultimo messaggio inviato</p>
-                    </div>
-
-
-                </div>
-
-                <div class="container-chat-laterali-right">
-                    <p class="timestamp-chat">12:00</p>
-    
-                </div>
-
-            </div>
-
-            <!-- Chat con Alessandra (4) -->
-
-            <div class="chat-barra-laterale">
-                <div class="container-chat-laterali-left">
-                    <img src="Img/sandra.jpg" alt="">
-
-                    <div class="text-container-chat-laterali">
-                        <h5>Alessandra</h5>
-                        <p>ultimo messaggio inviato</p>
-                    </div>
-
-
-                </div>
-
-                <div class="container-chat-laterali-right">
-                    <p class="timestamp-chat">12:00</p>
-    
-                </div>
-
-            </div>
-
-
             <!-- CHATS COL V-FOR -->
-        
-            <div v-for="chat in chats" class="chat-barra-laterale">
-                <div class="container-chat-laterali-left">
-                    <img :src="chats[0].fotoProfilo" alt="">
+                <div v-for="chat in chats" class="chat-barra-laterale">
+                    <a href="" class="a-chat-barra-laterale">
+                        <div class="container-chat-laterali-left">
+                             <img :src="chat.fotoProfilo" alt="">
 
-                    <div class="text-container-chat-laterali">
-                        <h5>{{chat.nome}}</h5>
-                        <p>ultimo messaggio inviato</p>
-                    </div>
+                            <div class="text-container-chat-laterali">
+                                <h5>{{chat.nome}}</h5>
+                                <p>ultimo messaggio inviato</p>
+                            </div>
 
+
+                        </div>
+
+                        <div class="container-chat-laterali-right">
+                            <p class="timestamp-chat">12:00</p>
+                
+                        </div>
+                    </a>
 
                 </div>
-
-                <div class="container-chat-laterali-right">
-                    <p class="timestamp-chat">12:00</p>
-    
-                </div>
-
-            </div>
+            
 
 
             
@@ -197,6 +115,7 @@
                         <i class="fa-solid fa-ellipsis-vertical"></i>
                         
                     </div>
+                </div>
 
 
 
