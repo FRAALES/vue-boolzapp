@@ -74,7 +74,10 @@
 
                             <div class="text-container-chat-laterali">
                                 <h5>{{chat.nome}}</h5>
-                                <p>ultimo messaggio inviato</p>
+                                <p v-for="chat in chats">
+                                    <!-- Qui devo usare i dati per dire: mostra l' ultimo messaggio inviato -->
+                                    {{ chat.messages.message }}
+                                </p>
                             </div>
 
 
